@@ -1,0 +1,22 @@
+.list-item {
+  list-style: none;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.active-tab {
+  color: #fec653;
+  list-style: none;
+  margin-right: 15px;
+  font-weight: 900;
+  border-bottom: 4px solid #fec653;
+  padding: 10px;
+}
+
+.tab-button {
+  border: 0;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 900;
+  cursor: pointer;
+}

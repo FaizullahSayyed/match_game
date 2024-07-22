@@ -1,0 +1,21 @@
+.main-image-container {
+  width: 100vw;
+  padding: 20px;
+}
+
+.main-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (orientation: landscape) {
+  .main-image-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .main-image {
+    max-width: 40%;
+  }
+}
